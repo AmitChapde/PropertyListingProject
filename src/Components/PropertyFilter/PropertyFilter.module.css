@@ -1,0 +1,125 @@
+.filterContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-evenly;
+  background-color: #1e2939;
+  opacity: 0.9;
+  width: 90%;
+  max-width: 44rem;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 0 auto;
+  top: 71%;
+  left: 0%;
+  right: 0%;
+}
+
+.listContainer {
+  color: #e5f8ff;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown {
+  background-color: #282e3c;
+  cursor: pointer;
+  color: #e5f8ff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.toggleContainer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggleContainer p {
+  color: #e5f8ff;
+  font-size: 0.7rem;
+}
+
+.active {
+  cursor: pointer;
+  background-color: #4a5567;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.defaultActive {
+  cursor: pointer;
+}
+.cardContainer {
+  display: grid;
+  margin: 2%  5%;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.staysheading {
+  color: #e5f8ff;
+  margin-top: 4rem;
+
+  
+}
+
+.superCardContainer{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+@media screen and (max-width: 640px) {
+  .filterContainer {
+    flex-direction: column;
+    gap: 1rem;
+    top: 70%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .listContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .toggleContainer {
+    justify-content: center;
+  }
+
+  .staysheading {
+    color: #e5f8ff;
+    margin: 1rem;
+    
+  }
+
+  .superCardContainer{
+    flex-direction: column;
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(auto,1fr);
+
+  }
+}
+

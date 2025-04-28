@@ -1,0 +1,98 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #4b5467;
+  width: 300px;
+  height: 31rem;
+  border-radius: 12px;
+}
+
+.heroImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.infoBar {
+  display: flex;
+  justify-content: space-between;
+  color: #f2f9fe;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.25rem;
+}
+
+.Card hr {
+  display: inline-block;
+  color: #4b5467;
+  width: 90%;
+  margin: auto;
+}
+
+.imageContainer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: start;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;  
+  left: 8px;  
+}
+
+.Card h5 {
+  color: #f2f9fe;
+  font-size: clamp(0.5rem, 1rem, 1.5rem);
+}
+
+.Card p {
+  color: #4b5467;
+  font-size: 0.875rem;
+}
+
+.infoBar span {
+  color: #4b5467;
+  font-size: clamp(0.5rem, 0.875rem, 1.5rem);
+}
+
+.iconContainer span {
+  display: flex;
+  align-items: center;
+  color: #4b5467;
+  font-size: clamp(0.5rem, 0.875rem, 1.5rem);
+}
+
+.superhost {
+  display: flex;
+  bottom: 4%;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #f2f9fe;
+  background-color: #121927;
+  border-radius: 17px;
+}
+
+.cardContent {
+  padding: 0% 2% 4%;
+}
+
+
+.smallStar{
+    width: 11px;
+    height: 13px;
+}
+
+.superhost p{
+    font-size: 0.575rem;
+    font-weight: bold;
+    color: #f2f9fe;
+}

@@ -1,0 +1,32 @@
+.heroImage {
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.heroContent h1 {
+  color: rgba(18,25,39,255);
+  font-size: 3rem;
+}
+
+.heroContent p {
+  color: #121927;
+  font-size: 1.2rem;
+  font-weight:100
+}
+
+@media (max-width: 500px) {
+  .heroContent {
+    top: 15%;
+    left: 8%;
+    max-width: 85%;
+    
+  }
+}
